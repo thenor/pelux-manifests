@@ -9,6 +9,7 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com"           name="github"/>
   <remote fetch="git://code.qt.io"           name="code.qt"/>
+  <remote fetch="git://git.linaro.org"       name="linaro"/>
 
   <!-- Base stuff -->
   <project remote="yocto"
@@ -31,9 +32,9 @@
            path="sources/meta-bistro"/>
 
   <project remote="github"
-           upstream="sumo"
-           revision="27331572026b0a3fb467846d2beee893dd16180d"
-           name="Pelagicore/meta-pelux"
+           upstream="renesas_pelux3"
+           revision="6d78b2ad2f5f4d43e63f63165a2e6940b951cd2e"
+           name="thenor/meta-pelux"
            path="sources/meta-pelux"/>
 
   <project remote="github"
@@ -93,5 +94,18 @@
            revision="f022a33b18a42b5355a1566d69459340c1c48c0f"
            name="Pelagicore/meta-arp"
            path="sources/meta-arp"/>
+
+<!-- Renesas -->
+  <project remote="github"
+           upstream="rocko"
+           revision="8af0b7d6e445b532088a068dc012757001be3a1f"
+           name="renesas-rcar/meta-renesas"
+           path="sources/meta-rcar"/>
+
+  <project remote="linaro"
+           upstream="sumo"
+           revision="282b47a10940c26854c1cca0ec40950192af16fc"
+           name="openembedded/meta-linaro"
+           path="sources/meta-linaro"/>
 
 </manifest>
