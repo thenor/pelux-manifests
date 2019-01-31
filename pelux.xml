@@ -50,8 +50,8 @@
            path="sources/meta-swupdate"/>
 
   <project remote="yocto"
-           upstream="sumo"
-           revision="ed2038c935777d1336c17989d454f4e9c95fea7f"
+           upstream="master"
+           revision="97dd9208b6d3dda87fa36b44d842d6002a9dd3bc"
            name="meta-virtualization"
            path="sources/meta-virtualization"/>
 
